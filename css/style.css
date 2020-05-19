@@ -312,7 +312,8 @@ body {
 }
 .intro_right img {
   height: 466px;
-  overflow: visible;
+  width: 100%;
+  object-fit: contain;
 }
 @media screen and (max-width: 375px) {
   .intro_section {
