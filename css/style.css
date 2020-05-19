@@ -236,7 +236,6 @@ body {
 .intro_section {
   width: 100%;
   position: relative;
-  height: 90vh;
 }
 .intro_section::after {
   position: absolute;
@@ -311,8 +310,7 @@ body {
   width: 50%;
   height: 100%;
 }
-.intro_right svg {
-  width: 100%;
+.intro_right img {
   height: 466px;
   overflow: visible;
 }
