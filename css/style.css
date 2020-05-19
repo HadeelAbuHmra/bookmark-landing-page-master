@@ -236,6 +236,7 @@ body {
 .intro_section {
   width: 100%;
   position: relative;
+  margin: 70px 0;
 }
 .intro_section::after {
   position: absolute;
@@ -318,6 +319,7 @@ body {
 @media screen and (max-width: 375px) {
   .intro_section {
     margin-bottom: var(--margin-section-mobile);
+    margin: 0 auto;
   }
   .d_intro {
     flex-direction: column-reverse;
