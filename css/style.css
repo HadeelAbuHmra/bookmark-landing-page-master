@@ -313,6 +313,7 @@ body {
   height: auto;
   width: 100%;
   object-fit: contain;
+  transform: translateX(70px);
 }
 @media screen and (max-width: 375px) {
   .intro_section {
@@ -327,6 +328,7 @@ body {
   }
   .intro_right img {
     width: 100%;
+    transform: translateX(0px);
   }
   .intro_title {
     margin: 3rem 0;
@@ -447,8 +449,9 @@ body {
   text-align: right;
 }
 .features_tabs .panel .content__features_left img {
-  width: auto;
-  height: 350px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .features_section::after {
@@ -560,10 +563,10 @@ body {
   color: white;
   padding: 0.75rem 1.7rem;
   border-radius: 4px;
-  margin-right: 0.5rem;
   box-shadow: 0px 2px 4px 1px rgba(184, 179, 179, 0.5);
   border: 1.5px solid var(--primary-blue);
   transition: var(--transition-time);
+  display: inline-block;
 }
 .download__in_browsers .download_item .install__browser_btn:hover,
 .download__in_browsers .download_item .install__browser_btn:focus {
