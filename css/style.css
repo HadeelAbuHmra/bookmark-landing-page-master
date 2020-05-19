@@ -254,7 +254,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  min-height: 85vh;
 }
 .intro_left {
   margin-right: 20px;
