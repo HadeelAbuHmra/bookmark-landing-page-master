@@ -311,7 +311,7 @@ body {
   height: 100%;
 }
 .intro_right img {
-  height: 466px;
+  height: auto;
   width: 100%;
   object-fit: contain;
 }
